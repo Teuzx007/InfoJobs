@@ -1,0 +1,111 @@
+body{
+    text-align: center;
+    background-color: #e8e8e8;
+    margin: 0;
+    
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    margin-top: -20px;
+}
+h2{
+    color: rgb(0, 0, 0);
+}
+
+header{
+    background-color: #6A5ACD;
+    font-size: medium;
+    padding: 1px;
+}
+
+li{
+    display: inline;
+}
+nav a{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    margin-right: 9vh;
+    
+}
+
+
+nav{
+    margin-top: 30px;
+    background-color: 	#483D8B;
+    padding: 1px;
+}
+
+
+.logo img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 3vh;
+    right: 9vh;
+    
+}
+
+.produto {
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    position: relative;
+    left: 55vh;
+    top: 10vh;
+}
+
+.produto img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.descricao {
+    flex: 1;
+}
+
+.descricao h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.descricao p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #2ba8fb;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  button:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+  }
+  
+  button:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
+
+  button a{
+    text-decoration: none;
+    color: white;
+  }

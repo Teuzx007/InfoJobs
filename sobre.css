@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    background-color: #e8e8e8;
+    margin: 0;
+    
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    margin-top: -20px;
+}
+h2{
+    color: rgb(0, 0, 0);
+}
+
+header{
+    background-color: #6A5ACD;
+    font-size: medium;
+    padding: 1px;
+}
+
+li{
+    display: inline;
+}
+nav a{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    margin-right: 9vh;
+    
+}
+
+
+nav{
+    margin-top: 30px;
+    background-color: 	#483D8B;
+    padding: 1px;
+}
+
+
+.logo img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 3vh;
+    right: 9vh;;
+    
+}
